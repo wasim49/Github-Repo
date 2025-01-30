@@ -1,0 +1,1 @@
+chef-client --chef-license accept
