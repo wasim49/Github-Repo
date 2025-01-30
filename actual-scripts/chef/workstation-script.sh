@@ -107,5 +107,5 @@ cd "$repoPath"
 echo "Uploading all cookbooks to the Chef server..."
 knife cookbook upload -a
 
-echo "Automation completed successfully."
+echo "Automation completed successfully."  ## test email change
 
