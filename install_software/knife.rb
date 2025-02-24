@@ -6,7 +6,7 @@ node_name                "chefusertest" ## This name must much the user name on 
 client_key               "C:/scripts/chef/cookbooks/install_software/.chef/wasimcg.pem"  ## This is user pem key not organsational pem key, this is private key. 
 chef_server_url          "https://172.19.54.22/organizations/cheforgtest"    ## "https://chef-automate-ndkh.southcentralus.cloudapp.azure.com/organizations/cheforgtest"     ## 
 cookbook_path            "C:/scripts/chef/cookbooks" 
-
+ssl_verify_mode :verify_none
 
 
 
