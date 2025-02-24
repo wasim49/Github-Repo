@@ -105,15 +105,17 @@ chef-server-ctl org-list
 
 # delation commands 
 
-chef-server-ctl user-delete chefuserwk --remove-from-admin-groups
+chef-server-ctl user-delete chefusertest --remove-from-admin-groups
 
 
 
-chef-server-ctl remove-server-admin-permissions chefuserwk
+chef-server-ctl remove-server-admin-permissions chefusertest
 
 
 
-chef-server-ctl org-delete cheforgwk
+chef-server-ctl org-delete cheforgtest
 
 
-chef-server-ctl user-delete chefuserwk
+chef-server-ctl user-delete chefusertest
+
+chef-server-ctl uninstall
