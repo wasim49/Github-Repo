@@ -1,0 +1,33 @@
+# Important Docker Commands
+
+1. **"docker run"**  
+   - Arguments: `--name <container_name>`, `-d`, `<image_name>`  
+
+2. **"docker ps"**  
+   - Arguments: `-a`  
+
+3. **"docker stop"**  
+   - Arguments: `<container_name>`  
+
+4. **"docker start"**  
+   - Arguments: `<container_name>`  
+
+5. **"docker rm"**  
+   - Arguments: `<container_name>`  
+
+6. **"docker rmi"**  
+   - Arguments: `<image_name>`  
+
+7. **"docker exec"**  
+   - Arguments: `-it <container_name> <command>`  
+
+8. **"docker build"**  
+   - Arguments: `-t <image_name> <path>`  
+
+9. **"docker pull"**  
+   - Arguments: `<image_name>`  
+
+10. **"docker logs"**  
+    - Arguments: `<container_name>`  
+
+*Note: The commands are styled with green text for commands and blue for arguments/keywords where applicable.*
